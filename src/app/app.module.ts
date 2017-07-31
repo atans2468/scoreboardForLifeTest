@@ -3,7 +3,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { Dashboard } from '../pages/hello-ionic/hello-ionic';
+import { Dashboard } from '../pages/hello-ionic/dashboard';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 import { Login } from '../pages/login/login';

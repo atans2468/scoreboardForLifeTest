@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 
 import { Platform, MenuController, Nav } from 'ionic-angular';
 
-import { Dashboard } from '../pages/hello-ionic/hello-ionic';
+import { Dashboard } from '../pages/hello-ionic/dashboard';
 import { ListPage } from '../pages/list/list';
 import { Login } from '../pages/login/login';
 
