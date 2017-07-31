@@ -10,9 +10,26 @@ page-hello-ionic {
     background-color: rgb(242, 242, 242);
 }
 
-.dashStandardRowHeight{
+.dashFirstRowHeight{
     height: 125px;
 }
+.dashStandardRowHeight{
+    height: 160px;
+}
+
+.dashFirstRowHeight h5 {
+    color: #fff;
+    margin-top: 0px;
+}
+.dashStandardRowHeight h5.fullColumnHeader{
+    border-bottom: 1px solid #aaa;
+    margin-top: 0px;
+}
+.dashStandardRowHeight h5{
+    color: #000;
+    margin-top: 0px;
+}
+
 
 #testGradient {
 /* can be treated like a fallback */
