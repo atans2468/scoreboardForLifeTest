@@ -1,3 +1,37 @@
 page-hello-ionic {
 
 }
+
+.offWhite {
+    background-color: rgb(242, 242, 242);
+}
+
+#testGradient {
+/* can be treated like a fallback */
+background-color: red;
+
+/* will be "on top", if browser supports it */
+background-image: linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
+
+/* these will reset other properties, like background-position, but it does know what you mean */
+background: red;
+background: -webkit-linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
+background: -moz-linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
+background: -o-linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
+background: linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
+}
+
+#testGradient2 {
+/* can be treated like a fallback */
+background-color: red;
+
+/* will be "on top", if browser supports it */
+background-image: linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
+
+/* these will reset other properties, like background-position, but it does know what you mean */
+background: red;
+background: -webkit-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
+background: -moz-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
+background: -o-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
+background: linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
+}
