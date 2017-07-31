@@ -12,15 +12,23 @@
 
   <h3>Welcome to your first Ionic app!</h3>
 
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-    <button (click)='foo();'>click me!</button>
-  </p>
+  
+  <ion-item>        
+    <ion-label><ion-icon name="person" style="color:#00ffff"></ion-icon></ion-label>
+    <ion-input clearInput type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>        
+    <ion-label><ion-icon name="key" style="color:#00ffff"></ion-icon></ion-label>
+    <ion-input clearInput type="text"></ion-input>
+  </ion-item>
+
+  <div style="width: 100%; text-align: center;">
+    <!--<button block>Login</button>-->
+    <button ion-button clear item-end icon-left (click)='foo();' style="margin-top: 5%;">
+      <ion-icon name="play"></ion-icon>
+      LOGIN
+    </button>
+  </div>
 
 </ion-content>
