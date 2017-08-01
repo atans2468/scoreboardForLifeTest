@@ -1,3 +1,15 @@
 page-login {
 
 }
+
+.gradientTextColor {
+    background-image: -webkit-linear-gradient(left, rgb(91, 167, 167), rgb(72, 133, 187)); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, rgb(91, 167, 167), rgb(72, 133, 187)); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, rgb(91, 167, 167), rgb(72, 133, 187)); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, rgb(91, 167, 167), rgb(72, 133, 187)); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, rgb(91, 167, 167), rgb(72, 133, 187)); /* Standard syntax; must be last */
+    background-clip: text;
+    color:transparent;
+    font-size: 20px;
+    -webkit-background-clip: text;
+}

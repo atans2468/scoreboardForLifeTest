@@ -12,5 +12,10 @@ export class Dashboard {
   ionViewDidEnter() {
     this.menu.swipeEnable(true, 'menu1');
   }
-  
+
+  /*displayDate(){
+    new Date().toLocaleDateString();
+  }
+  alert(displayDate);*/
+
 }

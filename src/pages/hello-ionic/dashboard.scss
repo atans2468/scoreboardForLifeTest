@@ -30,6 +30,9 @@ ion-grid {
 .dashStandardRowHeight{
     height: 160px;
 }
+#extendedRowHeight{
+    height: 200px;
+}
 /* end of dashboard row heights */
 
 
@@ -38,8 +41,14 @@ ion-grid {
     color: #fff;
     margin-top: 0px;
 }
-.dashStandardRowHeight h5.fullColumnHeader{
+.dashStandardRowHeight h5#lifeLeaders{
     border-bottom: 1px solid #aaa;
+    color: #000;
+    margin-top: 0px;
+}
+.dashStandardRowHeight h5.fullColumnHeader{
+    border-bottom: 1px solid #fff;
+    color: #fff;
     margin-top: 0px;
 }
 .dashStandardRowHeight h5{
@@ -58,7 +67,7 @@ background-color: #000;
 background-image: linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
 
 /* these will reset other properties, like background-position, but it does know what you mean */
-background: red;
+background: #000;
 background: -webkit-linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
 background: -moz-linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
 background: -o-linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
@@ -67,16 +76,20 @@ background: linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45
 
 #testGradient2 {
 /* can be treated like a fallback */
-background-color: red;
+background-color: #000;
 
 /* will be "on top", if browser supports it */
 background-image: linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
 
 /* these will reset other properties, like background-position, but it does know what you mean */
-background: red;
+background: #000;
 background: -webkit-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
 background: -moz-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
 background: -o-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
 background: linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
 }
 /* end of gradient styling for each dashboard column */
+
+.chatBoardBackground {
+    background-color: rgb(0, 202, 204);
+}
