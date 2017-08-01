@@ -10,7 +10,7 @@ import { ItemDetailsPage } from '../item-details/item-details';
 })
 
 export class Dashboard {
-  constructor(private menu: MenuController, private nav: NavController, public navCtrl: NavController) { }
+  constructor(private menu: MenuController, public navCtrl: NavController) { }
 
   itemDetails(){
    this.navCtrl.push(ItemDetailsPage);
