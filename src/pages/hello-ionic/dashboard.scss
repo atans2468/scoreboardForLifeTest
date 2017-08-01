@@ -15,10 +15,10 @@ ion-grid {
     background-color: rgb(242, 242, 242);
 }
 .borderRight {
-    border-right: 1px solid #000;
+    border-right: 1px solid #aaa;
 }
 .borderBottom {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #aaa;
 }
 /* end of global styles */
 
@@ -37,7 +37,7 @@ ion-grid {
 
 
 /* header styling for each dashboard column */
-.dashFirstRowHeight h5 {
+.dashFirstRowHeight h4 {
     color: #fff;
     margin-top: 0px;
 }
