@@ -11,14 +11,17 @@ ion-grid {
 
 
 /* global styles */
-.offWhite {
-    background-color: rgb(242, 242, 242);
-}
 .borderRight {
     border-right: 1px solid #aaa;
 }
 .borderBottom {
     border-bottom: 1px solid #aaa;
+}
+.centerText {
+    text-align: center;
+}
+.offWhite {
+    background-color: rgb(242, 242, 242);
 }
 /* end of global styles */
 
@@ -52,42 +55,88 @@ ion-grid {
     margin-top: 0px;
 }
 .dashStandardRowHeight h5{
-    color: #000;
+    color: #fff;
     margin-top: 0px;
 }
 /* end of header styling for each dashboard column */
 
 
 /* gradient styling for each dashboard column */
-#testGradient {
-/* can be treated like a fallback */
-background-color: #000;
+.greenGradient {
+    /* can be treated like a fallback */
+    background-color: #000;
 
-/* will be "on top", if browser supports it */
-background-image: linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
+    /* will be "on top", if browser supports it */
+    background-image: linear-gradient(135deg,rgb(36, 173, 168), rgb(69, 214, 177));
 
-/* these will reset other properties, like background-position, but it does know what you mean */
-background: #000;
-background: -webkit-linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
-background: -moz-linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
-background: -o-linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
-background: linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
+    /* these will reset other properties, like background-position, but it does know what you mean */
+    background: #000;
+    background: -webkit-linear-gradient(135deg,rgb(36, 173, 168), rgb(69, 214, 177));
+    background: -moz-linear-gradient(135deg,rgb(36, 173, 168), rgb(69, 214, 177));
+    background: -o-linear-gradient(135deg,rgb(36, 173, 168), rgb(69, 214, 177));
+    background: linear-gradient(135deg,rgb(36, 173, 168), rgb(69, 214, 177));
 }
 
-#testGradient2 {
-/* can be treated like a fallback */
-background-color: #000;
+.blueGradient {
+    /* can be treated like a fallback */
+    background-color: #000;
 
-/* will be "on top", if browser supports it */
-background-image: linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
+    /* will be "on top", if browser supports it */
+    background-image: linear-gradient(-135deg,rgb(83, 155, 181), rgb(6, 77, 128));
 
-/* these will reset other properties, like background-position, but it does know what you mean */
-background: #000;
-background: -webkit-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
-background: -moz-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
-background: -o-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
-background: linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
+    /* these will reset other properties, like background-position, but it does know what you mean */
+    background: #000;
+    background: -webkit-linear-gradient(-135deg,rgb(83, 155, 181), rgb(6, 77, 128));
+    background: -moz-linear-gradient(-135deg,rgb(83, 155, 181), rgb(6, 77, 128));
+    background: -o-linear-gradient(-135deg,rgb(83, 155, 181), rgb(6, 77, 128));
+    background: linear-gradient(-135deg,rgb(83, 155, 181), rgb(6, 77, 128));
 }
+
+.purpleGradient {
+    /* can be treated like a fallback */
+    background-color: #000;
+
+    /* will be "on top", if browser supports it */
+    background-image: linear-gradient(135deg,rgb(148, 166, 216), rgb(108, 91, 159));
+
+    /* these will reset other properties, like background-position, but it does know what you mean */
+    background: #000;
+    background: -webkit-linear-gradient(135deg,rgb(148, 166, 216), rgb(108, 91, 159));
+    background: -moz-linear-gradient(135deg,rgb(148, 166, 216), rgb(108, 91, 159));
+    background: -o-linear-gradient(135deg,rgb(148, 166, 216), rgb(108, 91, 159));
+    background: linear-gradient(135deg,rgb(148, 166, 216), rgb(108, 91, 159));
+}
+
+.orangeGradient {
+    /* can be treated like a fallback */
+    background-color: #000;
+
+    /* will be "on top", if browser supports it */
+    background-image: linear-gradient(135deg,rgb(245, 243, 202), rgb(155, 85, 83));
+
+    /* these will reset other properties, like background-position, but it does know what you mean */
+    background: #000;
+    background: -webkit-linear-gradient(135deg,rgb(245, 243, 202), rgb(155, 85, 83));
+    background: -moz-linear-gradient(135deg,rgb(245, 243, 202), rgb(155, 85, 83));
+    background: -o-linear-gradient(135deg,rgb(245, 243, 202), rgb(155, 85, 83));
+    background: linear-gradient(135deg,rgb(245, 243, 202), rgb(155, 85, 83));
+}
+
+.redGradient {
+    /* can be treated like a fallback */
+    background-color: #000;
+
+    /* will be "on top", if browser supports it */
+    background-image: linear-gradient(135deg,rgb(255, 150, 176), rgb(74, 35, 88));
+
+    /* these will reset other properties, like background-position, but it does know what you mean */
+    background: #000;
+    background: -webkit-linear-gradient(135deg,rgb(255, 150, 176), rgb(74, 35, 88));
+    background: -moz-linear-gradient(135deg,rgb(255, 150, 176), rgb(74, 35, 88));
+    background: -o-linear-gradient(135deg,rgb(255, 150, 176), rgb(74, 35, 88));
+    background: linear-gradient(135deg,rgb(255, 150, 176), rgb(74, 35, 88));
+}
+
 /* end of gradient styling for each dashboard column */
 
 .chatBoardBackground {

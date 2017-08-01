@@ -10,6 +10,8 @@ import { Component } from '@angular/core';
 export class Dashboard {
   constructor(private menu: MenuController, private nav: NavController, public navCtrl: NavController) { }
 
+  
+
   //Enabling swipe to expand sidemenu
   ionViewDidEnter() {
     this.menu.swipeEnable(true, 'menu1');
