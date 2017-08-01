@@ -1,6 +1,8 @@
 import { NavController, MenuController } from 'ionic-angular/index';
 import { Component } from '@angular/core';
 
+import { ItemDetailsPage } from '../item-details/item-details';
+
 
 @Component({
   selector: 'page-hello-ionic',
@@ -10,7 +12,9 @@ import { Component } from '@angular/core';
 export class Dashboard {
   constructor(private menu: MenuController, private nav: NavController, public navCtrl: NavController) { }
 
-  
+  itemDetails(){
+   this.navCtrl.push(ItemDetailsPage);
+  }
 
   //Enabling swipe to expand sidemenu
   ionViewDidEnter() {
