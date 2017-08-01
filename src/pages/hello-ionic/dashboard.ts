@@ -2,6 +2,7 @@ import { NavController, MenuController } from 'ionic-angular/index';
 import { Component } from '@angular/core';
 
 import { ItemDetailsPage } from '../item-details/item-details';
+import { Settings } from '../settings/settings';
 
 
 @Component({
