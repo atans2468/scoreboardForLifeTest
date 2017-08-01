@@ -1,22 +1,39 @@
-page-hello-ionic {
-
+ion-grid {
+    padding: 0px !important;
 }
 
+
+/* dev ONLY styling */
 .devBorder {
     border: 1px solid black;
 }
+/* end of dev ONLY styling */
 
+
+/* global styles */
 .offWhite {
     background-color: rgb(242, 242, 242);
 }
+.borderRight {
+    border-right: 1px solid #000;
+}
+.borderBottom {
+    border-bottom: 1px solid #000;
+}
+/* end of global styles */
 
+
+/* dashboard row heights */
 .dashFirstRowHeight{
     height: 125px;
 }
 .dashStandardRowHeight{
     height: 160px;
 }
+/* end of dashboard row heights */
 
+
+/* header styling for each dashboard column */
 .dashFirstRowHeight h5 {
     color: #fff;
     margin-top: 0px;
@@ -29,11 +46,13 @@ page-hello-ionic {
     color: #000;
     margin-top: 0px;
 }
+/* end of header styling for each dashboard column */
 
 
+/* gradient styling for each dashboard column */
 #testGradient {
 /* can be treated like a fallback */
-background-color: red;
+background-color: #000;
 
 /* will be "on top", if browser supports it */
 background-image: linear-gradient(135deg,rgba(36, 173, 168, 24), rgba(69, 214, 177, 45));
@@ -60,3 +79,4 @@ background: -moz-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128
 background: -o-linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
 background: linear-gradient(-135deg,rgba(83, 155, 181, 53), rgba(6, 77, 128, 06));
 }
+/* end of gradient styling for each dashboard column */
