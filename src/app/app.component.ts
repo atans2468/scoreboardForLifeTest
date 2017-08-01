@@ -5,6 +5,7 @@ import { Platform, MenuController, Nav } from 'ionic-angular';
 import { Dashboard } from '../pages/hello-ionic/dashboard';
 import { ListPage } from '../pages/list/list';
 import { Login } from '../pages/login/login';
+import { Settings } from '../pages/settings/settings';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
