@@ -1,3 +1,4 @@
+import { NavController, MenuController } from 'ionic-angular/index';
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,7 +6,11 @@ import { Component } from '@angular/core';
   templateUrl: 'dashboard.html'
 })
 export class Dashboard {
-  constructor() {
+  constructor(private menu: MenuController, private nav: NavController, public navCtrl: NavController) { }
 
+  //Enabling swipe to expand sidemenu
+  ionViewDidEnter() {
+    this.menu.swipeEnable(true, 'menu1');
   }
+  
 }

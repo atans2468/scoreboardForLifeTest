@@ -10,16 +10,16 @@ import { Dashboard } from '../hello-ionic/dashboard';
 export class Login {
   
   constructor(private menu: MenuController, private nav: NavController, public navCtrl: NavController) { }
+  public openPage1() {
+    this.nav.setRoot(Login);
+  }
 
   foo(){
    this.navCtrl.setRoot(Dashboard);
   }
 
+  //Disabling swipe to expand sidemenu
   ionViewDidEnter() {
     this.menu.swipeEnable(false, 'menu1');
-  }
-
-  public openPage1() {
-    this.nav.setRoot(Login);
   }
 }

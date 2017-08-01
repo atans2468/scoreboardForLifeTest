@@ -16,7 +16,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  // make HelloIonicPage the root (or first) page
+  // make Login the root (or first) page
   rootPage = Login;
   pages: Array<{title: string, component: any}>;
 
