@@ -3,9 +3,8 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { Dashboard } from '../pages/hello-ionic/dashboard';
-import { ItemDetailsPage } from '../pages/item-details/item-details';
-import { ListPage } from '../pages/list/list';
+import { Dashboard } from '../pages/dashboard/dashboard';
+import { WeightDetailsPage } from '../pages/weight-details/weight-details';
 import { Login } from '../pages/login/login';
 import { Settings } from '../pages/settings/settings';
 
@@ -16,8 +15,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     Dashboard,
-    ItemDetailsPage,
-    ListPage,
+    WeightDetailsPage,
     Login,
     Settings
   ],
@@ -29,8 +27,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     Dashboard,
-    ItemDetailsPage,
-    ListPage,
+    WeightDetailsPage,
     Login,
     Settings
   ],

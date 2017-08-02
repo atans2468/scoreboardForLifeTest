@@ -2,8 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 
 import { Platform, MenuController, Nav } from 'ionic-angular';
 
-import { Dashboard } from '../pages/hello-ionic/dashboard';
-import { ListPage } from '../pages/list/list';
+import { Dashboard } from '../pages/dashboard/dashboard';
 import { Login } from '../pages/login/login';
 import { Settings } from '../pages/settings/settings';
 
@@ -31,8 +30,7 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Dashboard', component: Dashboard },
-      { title: 'My First List', component: ListPage }
+      { title: 'Dashboard', component: Dashboard }
     ];
   }
 

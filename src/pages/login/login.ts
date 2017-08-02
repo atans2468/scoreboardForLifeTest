@@ -1,7 +1,7 @@
 import { NavController, MenuController } from 'ionic-angular/index';
 import { Component } from '@angular/core';
 
-import { Dashboard } from '../hello-ionic/dashboard';
+import { Dashboard } from '../dashboard/dashboard';
 
 @Component({
   selector: 'page-login',
