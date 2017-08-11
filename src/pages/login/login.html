@@ -13,6 +13,7 @@
   <img src="assets/img/sflLogo.png" style="width: 100%; margin-top: -15%; margin-bottom: -15%;">
 
   
+  <!--
   <ion-item>        
     <ion-label><ion-icon name="person" style="color:rgb(176, 218, 242)"></ion-icon></ion-label>
     <ion-input clearInput type="text" placeholder="Username"></ion-input>
@@ -21,14 +22,16 @@
   <ion-item>        
     <ion-label><ion-icon name="key" style="color: rgb(176, 218, 242)"></ion-icon></ion-label>
     <ion-input clearInput type="text" placeholder="Password"></ion-input>
-  </ion-item>
+  </ion-item> -->
 
   <div style="width: 100%; text-align: center;">
     <!--<button block>Login</button>-->
-    <button ion-button clear item-end icon-left (click)='login();' class="gradientTextColor" style="margin-top: 5%;">
+    <!--<button ion-button clear item-end icon-left (click)='login();' class="gradientTextColor" style="margin-top: 5%;">
       <ion-icon name="play" style="color: rgb(176, 218,242)"></ion-icon>
       LOGIN
-    </button>
+    </button> -->
+    <p style="margin-bottom: 7%; font-size: 24px;">Login With:</p>
+    <img src="assets/img/fitbitLogo.png" style="width: 60%; height: 60%; cursor: pointer; border: 3px solid #aaa; padding: 5%; border-radius: 10px;" (click)='login();'>
   </div>
 
   <img src="assets/img/loginWaves.jpg" style="width: 100%; position: absolute; bottom: 0;">

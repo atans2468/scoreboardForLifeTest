@@ -43,7 +43,7 @@
         "@ionic/cli-plugin-cordova": "1.6.0-alpha.93bbc88d",
         "@ionic/cli-plugin-ionic-angular": "1.5.0-alpha.93bbc88d",
         "@ionic/cli-plugin-proxy": "1.5.0-alpha.93bbc88d",
-        "ionic": "3.7.0-alpha.93bbc88d",
+        "ionic": "3.8.0-alpha.3dca7af1",
         "typescript": "2.3.4"
     },
     "description": "An Ionic project",
