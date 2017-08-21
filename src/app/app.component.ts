@@ -4,7 +4,6 @@ import { Platform, MenuController, Nav } from 'ionic-angular';
 
 import { Dashboard } from '../pages/dashboard/dashboard';
 import { Login } from '../pages/login/login';
-import { Settings } from '../pages/settings/settings';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';

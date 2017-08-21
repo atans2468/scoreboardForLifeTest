@@ -2,7 +2,6 @@ import { NavController, MenuController } from 'ionic-angular/index';
 import { Component } from '@angular/core';
 
 import { WeightDetailsPage } from '../weight-details/weight-details';
-import { Settings } from '../settings/settings';
 
 
 @Component({
