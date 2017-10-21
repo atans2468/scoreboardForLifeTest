@@ -2,8 +2,10 @@ import { Component, ViewChild } from '@angular/core';
 
 import { Platform, MenuController, Nav } from 'ionic-angular';
 
-import { Dashboard } from '../pages/dashboard/dashboard';
 import { Login } from '../pages/login/login';
+import { Dashboard } from '../pages/dashboard/dashboard';
+import { ListMasterPage } from '../pages/list-master/list-master';
+import { ItemDetailPage } from '../pages/item-detail/item-detail';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -29,7 +31,8 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Dashboard', component: Dashboard }
+      { title: 'Dashboard', component: Dashboard },
+      { title: 'Master Detail', component: ListMasterPage },
     ];
   }
 
